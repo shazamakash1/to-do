@@ -37,5 +37,5 @@ export async function PUT(request) {
     },
   });
 
-  return NextResponse.json({ msg: "Todo Deleted" });
+  return NextResponse.json({ msg: "Todo Completed" });
 }
